@@ -99,9 +99,10 @@ img {
 
 .main-nav a:hover,
 .main-nav a.active {
-  border-bottom-color: #111111;
+  font-weight: 700;
+  color: #d80000;
+  border-bottom-color: #d80000; /* línea roja debajo */
 }
-
 /* Dropdown */
 .has-dropdown {
   position: relative;
@@ -135,7 +136,9 @@ img {
 }
 
 .has-dropdown .dropdown a:hover {
-  background: #f7f7f7;
+  font-weight: 700;
+  color: #d80000;  /* mismo rojo elegante */
+  background: none; /* sin gris ni sombra */
 }
 
 .has-dropdown:hover .dropdown {
@@ -349,4 +352,5 @@ img {
     grid-auto-rows: 220px;
   }
 }
+
 
