@@ -58,18 +58,19 @@ img {
 
 /* Instagram elegante en negro */
 .insta {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;  /* fuente elegante */
   font-size: 16px;
-  font-weight: 700;
-  color: #000;
-  text-decoration: none;
+  font-weight: 700;                        /* negrita fuerte */
+  color: #000;                             /* negro */
+  text-decoration: underline;              /* subrayado */
+  text-underline-offset: 3px;              /* subrayado más bonito */
   letter-spacing: 0.04em;
   margin-top: 4px;
 }
 
 /* Hover elegante y sutil */
 .insta:hover {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .logo:hover {
@@ -348,3 +349,4 @@ img {
     grid-auto-rows: 220px;
   }
 }
+
