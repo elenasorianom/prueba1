@@ -40,3 +40,26 @@ const imgs = document.querySelectorAll('img');
 imgs.forEach(img => {
   img.addEventListener('dragstart', e => e.preventDefault());
 });
+
+// SLIDER AUTOMÁTICO DE PORTADA
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".hero-slider .slide");
+  if (!slides.length) return;
+
+  let slideIndex = 0;
+
+  function showSlides() {
+    slides.forEach(slide => slide.classList.remove("active"));
+    slides[slideIndex].classList.add("active");
+
+    slideIndex++;
+    if (slideIndex >= slides.length) {
+      slideIndex = 0;
+    }
+  }
+
+  showSlides();                 // muestra la primera foto
+  setInterval(showSlides, 1000); // cambia cada 1 segundo (1000 ms)
+});
+
+
