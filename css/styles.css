@@ -48,6 +48,28 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #d80000; /* el rojo que elegimos */
+
+.logo-wrap {
+  display: flex;
+  align-items: baseline;   /* 🔥 esto alinea por la línea base exacta */
+  gap: 14px;               /* separación visual entre nombre y @ */
+}
+
+/* Estilo para el @ del Instagram */
+.insta {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;        /* más pequeño */
+  font-weight: 600;
+  color: #d80000;         /* mismo rojo que el nombre */
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  margin-top: 4px;        /* microajuste visual */
+}
+
+.insta:hover {
+  opacity: 0.7;
+}
+  
 }
 
 .logo:hover {
@@ -374,3 +396,4 @@ img {
 }
 
 }
+
