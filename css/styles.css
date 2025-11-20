@@ -42,7 +42,7 @@ img {
 .logo {
   font-family: Impact, "Arial Black", sans-serif;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 700;
   color: #d80000;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -361,13 +361,14 @@ img {
 .site-footer p {
   margin: 0;
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 13px;          /* mismo tamaño que el menú */
+  font-size: 9px;          /* mismo tamaño que el menú */
   letter-spacing: 0.16em;   /* misma separación que el menú */
   text-transform: uppercase;
   font-weight: 200;
   color: #d80000;           /* mismo rojo que ELENA SORIANO */
 }
 }
+
 
 
 
