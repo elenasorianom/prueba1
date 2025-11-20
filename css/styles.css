@@ -42,7 +42,7 @@ img {
 .logo {
   font-family: Impact, "Arial Black", sans-serif;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   color: #d80000;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -368,6 +368,7 @@ img {
   color: #d80000;           /* mismo rojo que ELENA SORIANO */
 }
 }
+
 
 
 
