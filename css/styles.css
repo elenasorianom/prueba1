@@ -36,7 +36,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 24px 7vw 16px;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom:none; /* si queires gris es  1px solid #f1f1f1 */
 }
 
 .logo {
@@ -352,6 +352,7 @@ img {
 
   
 }
+
 
 
 
