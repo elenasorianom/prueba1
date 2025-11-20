@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio – elena</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+<div class="logo">ELENA SORIANO</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown">
+          <a href="portfolio.html" class="active">Portfolio</a>
+          <ul class="dropdown">
+            <li><a href="#travel">Travel</a></li>
+            <li><a href="#people">People</a></li>
+            <li><a href="#brand">Brand / Product</a></li>
+            <li><a href="#events">Events</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page portfolio">
+
+    <!-- TRAVEL -->
+    <section id="travel" class="portfolio-section">
+      <h1>Travel</h1>
+      <div class="portfolio-grid">
+        <!-- Repite bloques con tus fotos de Travel -->
+        <div class="portfolio-item lightbox-trigger" data-full="img/travel1.jpg">
+          <div class="photo-wrapper">
+            <img src="img/travel1.jpg" alt="Travel">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/travel2.jpg">
+          <div class="photo-wrapper">
+            <img src="img/travel2.jpg" alt="Travel 2">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/travel3.jpg">
+          <div class="photo-wrapper">
+            <img src="img/travel3.jpg" alt="Travel 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PEOPLE -->
+    <section id="people" class="portfolio-section">
+      <h1>People</h1>
+      <div class="portfolio-grid">
+        <div class="portfolio-item lightbox-trigger" data-full="img/people1.jpg">
+          <div class="photo-wrapper">
+            <img src="img/people1.jpg" alt="People 1">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/people2.jpg">
+          <div class="photo-wrapper">
+            <img src="img/people2.jpg" alt="People 2">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/people3.jpg">
+          <div class="photo-wrapper">
+            <img src="img/people3.jpg" alt="People 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND / PRODUCT -->
+    <section id="brand" class="portfolio-section">
+    <h1>Brand / Product</h1>
+      <div class="portfolio-grid">
+        <div class="portfolio-item lightbox-trigger" data-full="img/brand1.jpg">
+          <div class="photo-wrapper">
+            <img src="img/brand1.jpg" alt="Brand 1">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/brand2.jpg">
+          <div class="photo-wrapper">
+            <img src="img/brand2.jpg" alt="Brand 2">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/brand3.jpg">
+          <div class="photo-wrapper">
+            <img src="img/brand3.jpg" alt="Brand 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events" class="portfolio-section">
+      <h1>Events</h1>
+      <div class="portfolio-grid">
+        <div class="portfolio-item lightbox-trigger" data-full="img/events1.jpg">
+          <div class="photo-wrapper">
+            <img src="img/events1.jpg" alt="Events 1">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/events2.jpg">
+          <div class="photo-wrapper">
+            <img src="img/events2.jpg" alt="Events 2">
+          </div>
+        </div>
+
+        <div class="portfolio-item lightbox-trigger" data-full="img/events3.jpg">
+          <div class="photo-wrapper">
+            <img src="img/events3.jpg" alt="Events 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="lightbox-overlay" id="lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+      <img id="lightbox-img" src="" alt="">
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

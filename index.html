@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>elena – photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tipografías tipo revista -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+<a href="index.html" class="logo">ELENA SORIANO</a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="has-dropdown">
+          <a href="portfolio.html">Portfolio</a>
+          <ul class="dropdown">
+            <li><a href="portfolio.html#travel">Travel</a></li>
+            <li><a href="portfolio.html#people">People</a></li>
+            <li><a href="portfolio.html#brand">Brand / Product</a></li>
+            <li><a href="portfolio.html#events">Events</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page home">
+    <section class="hero-grid">
+      <!-- Mezcla de tamaños diferentes, sin marcos -->
+      <div class="grid-item grid-item-large lightbox-trigger" data-full="img/home1.jpg">
+        <div class="photo-wrapper">
+          <img src="img/home1.jpg" alt="Foto de portada 1">
+        </div>
+      </div>
+
+      <div class="grid-item lightbox-trigger" data-full="img/home2.jpg">
+        <div class="photo-wrapper">
+          <img src="img/home2.jpg" alt="Foto de portada 2">
+        </div>
+      </div>
+
+      <div class="grid-item tall lightbox-trigger" data-full="img/home3.jpg">
+        <div class="photo-wrapper">
+          <img src="img/home3.jpg" alt="Foto de portada 3">
+        </div>
+      </div>
+
+      <!-- Duplica / cambia estas tarjetas con tus fotos -->
+      <div class="grid-item lightbox-trigger" data-full="img/travel1.jpg">
+        <div class="photo-wrapper">
+          <img src="img/travel1.jpg" alt="Travel">
+        </div>
+      </div>
+
+      <div class="grid-item lightbox-trigger" data-full="img/people1.jpg">
+        <div class="photo-wrapper">
+          <img src="img/people1.jpg" alt="People">
+        </div>
+      </div>
+
+      <div class="grid-item wide lightbox-trigger" data-full="img/brand1.jpg">
+        <div class="photo-wrapper">
+          <img src="img/brand1.jpg" alt="Brand / Product">
+        </div>
+      </div>
+
+      <div class="grid-item lightbox-trigger" data-full="img/events1.jpg">
+        <div class="photo-wrapper">
+          <img src="img/events1.jpg" alt="Events">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox para ver fotos grandes sin descarga fácil -->
+  <div class="lightbox-overlay" id="lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+      <img id="lightbox-img" src="" alt="">
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
