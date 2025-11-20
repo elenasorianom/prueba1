@@ -350,8 +350,24 @@ img {
   font-style: italic;    /* cursiva */
 }
 
-  
+  /* FOOTER */
+.site-footer {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 20px;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
 }
+
+.site-footer p {
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;   /* TODO EN MAYÚSCULAS */
+}
+}
+
 
 
 
