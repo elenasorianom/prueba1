@@ -369,7 +369,12 @@ img {
 .contact-insta-link:hover {
   opacity: 0.8;
 }
+
+  .contact-links {
+  font-weight: 700;       /* 🔥 NEGRITA */
 }
+}
+
 
 
 
